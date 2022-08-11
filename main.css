@@ -1,0 +1,72 @@
+#navContainer {
+    display: inline-flex;
+}
+
+#navMain{
+    background-color: black !important;
+}
+
+#topBox {
+    color: green;
+}  
+
+#topCard {
+    background-image: url("./BlackDice.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 93vh;
+}
+#gameSection {
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+    padding: 1%;
+
+
+    font-size: 25px;
+
+    
+}
+#gameCard{
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    background-color: #110F0F;
+    box-shadow: 5px 6px 17px -1px rgba(0,0,0,0.4);
+    padding: 5%;
+ 
+}
+#myGame{
+    display: inline-flex;
+    padding-top: 5%;
+}
+#leftCard{
+    width: 50%;
+    padding-left: 20%;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+#rightCard{
+    width: 50%;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#rightStats{
+    padding-top: 11px;
+}
+#currentQuestion{
+    padding-top: 5%;
+}
+#myChoices{
+    padding-top: 15%;
+}
+.lineItem{
+    padding-top: 5px;
+}
+#instructions {
+    padding-top: 17%;
+    text-align: left;
+    font-size: 15px;
+}
